@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<style>
+    *{
+        /* height: 100px; */
+        padding: 0;
+        margin: 0;
+        font-family: "Bebas Neue", sans-serif;
+        /* font-weight: 400; */
+        font-style: normal;
+        font-size: 110%;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #2C2C2C;
+    }
+    .full{    
+        justify-content: center;
+        border: solid 2px rgb(59, 58, 58);
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        background-color: #1F1F1F;
+        box-shadow: 0px 0px 25px black;
+        border-radius: 15px;
+    }
+    .display{
+        display: flex ;
+        justify-content: right;
+        align-items: center;
+        background-color: #E0E0E0;
+        border-radius: 13px;
+        height: 50px;
+        width: 300px;
+        padding-right: 4px;
+    }
+    .display h1{
+        color: #333333;
+    }
+    .fst{
+        display: flex;
+        padding-top: 12px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .Number{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4E4E4E;
+        border-radius: 10px;
+        height:60px;
+        width:60px;
+    }
+    .Equation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FF5722;
+        border-radius: 10px;
+        height:60px;
+        width:60px;
+    }
+    .last{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F44336;
+        border-radius: 10px;
+        height:50px;
+        width:140px;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tiny5&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full">
+        <div class="display">
+            <h1>Wild Rose</h1>
+        </div>
+        <div class="fst">
+            <button class="Number"><h2>7</h2></button>
+            <button class="Number"><h2>8</h2></button>
+            <button class="Number"><h2>9</h2></button>
+            <button class="Equation"><h2>+</h2></button>
+        </div>
+        <div class="fst">
+            <button class="Number"><h2>4</h2></button>
+            <button class="Number"><h2>5</h2></button>
+            <button class="Number"><h2>6</h2></button>
+            <button class="Equation"><h2>-</h2></button>
+        </div>
+        <div class="fst">
+            <button class="Number"><h2>1</h2></button>
+            <button class="Number"><h2>2</h2></button>
+            <button class="Number"><h2>3</h2></button>
+            <button class="Equation"><h2>X</h2></button>
+        </div>
+        <div class="fst">
+            <button class="Number"><h2>0</h2></button>
+            <button class="Number"><h2>00</h2></button>
+            <button class="Number"><h2>.</h2></button>
+            <button class="Equation"><h2>%</h2></button>
+        </div>
+        <div class="fst">
+            <button class="last"><h2>Cr</h2></button>
+            <button class="last"><h2>=</h2></button>
+        </div>
+    </div>
+</body>
+</html>
